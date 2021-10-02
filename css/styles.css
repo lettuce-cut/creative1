@@ -1,3 +1,65 @@
 body {
-	background-color: #8FBC8F;
+	font-family: sans-serif;
+	background-color: #588c7e;
+}
+
+.ong, .hunter{
+	margin: 10px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;;
+}
+.hunter{
+	flex-direction: row-reverse;
+}
+
+.story{
+	max-width: 900px;
+	border: 5px #FFE4C4 solid;
+	max-height: 350px;
+	margin: 0;
+	padding: 20px;;
+}
+h1 {
+	 text-align: center;
+ }
+
+.this {
+    background: url('../images/baguette.jpeg') 0 0 repeat-x;
+    position:relative;
+    display: inline-block;
+    margin:0 25px;
+    padding:0 10px;
+    height:40px;
+}
+.is {
+    background: url('../images/pizza.jpeg') 0 0 repeat-x;
+    position:relative;
+    display: inline-block;
+    margin:0 25px;
+    padding:0 10px;
+    height:40px;
+}
+.tradition {
+    background: url('../images/chow.jpeg') 0 0 repeat-x;
+    position:relative;
+    display: inline-block;
+    margin:0 25px;
+    padding:0 10px;
+    height:40px;
+}
+
+.this, .is, .tradition {
+	min-height: 500px;
+	min-width: 300px;
+}
+.this h1, .is h1, .tradition h1 {
+	padding-block: 200px;
+	color: #FFE4CF;
+	font-size: 3em;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
 }
