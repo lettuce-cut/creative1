@@ -1,21 +1,27 @@
+body {
+	background-color: #f2e394;
+}
+
 .list {
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-around;	
+	justify-content: flex-start;	
+}
+.item {
+	opacity: 0.5;
+	margin: 2%;
 }
 
-.item h3 {
-	color: green;
+img {
+	height: 250px;
+	width: 250px;
 }
 
-.item a {
+h3 {
 	position: relative;
-	color: red;
-	right: 150px;
-	bottom: 100px;
-	display: none;	
+	top: 150px;
+	left: 50px;
+	font-size: 2em;
 }
 
-.item a:hover {
-	display: block;
-}
+
