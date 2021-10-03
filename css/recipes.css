@@ -3,3 +3,19 @@
 	flex-wrap: wrap;
 	justify-content: space-around;	
 }
+
+.item h3 {
+	color: green;
+}
+
+.item a {
+	position: relative;
+	color: red;
+	right: 150px;
+	bottom: 100px;
+	display: none;	
+}
+
+.item a:hover {
+	display: block;
+}
