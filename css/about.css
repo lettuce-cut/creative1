@@ -1,0 +1,27 @@
+body {
+	background-color: #f2e394;
+}
+.ong, .hunter{
+        margin: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;;
+}
+.hunter{
+        flex-direction: row-reverse;
+}
+
+.story{
+        max-width: 900px;
+        border: 5px #f2ae72 solid;
+        max-height: 350px;
+        margin: 0;
+        padding: 20px;;
+}
+h1 {
+         text-align: center;
+ }
+
+ img {
+	 border-radius: 10px;
+ }

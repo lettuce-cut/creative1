@@ -1,6 +1,6 @@
 body {
 	font-family: sans-serif;
-	background-color: #588c7e;
+	background-color: #f2e394;
 }
 
 .ong, .hunter{
@@ -53,10 +53,22 @@ h1 {
 	min-height: 500px;
 	min-width: 300px;
 }
+
+img {
+	opacity:0.5;
+}
+
 .this h1, .is h1, .tradition h1 {
 	padding-block: 200px;
-	color: #FFE4CF;
+	color: #588c7e;
 	font-size: 3em;
+	font-weight: 800;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #f2e394;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 .cards {
