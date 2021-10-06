@@ -1,27 +1,54 @@
+.navbar {
+	position:fixed;
+	top: 0;
+	width: 100%;
+	background-color: #d96459;
+}
+
 body {
 	background-color: #f2e394;
 }
 
 .list {
+	width: 80vw;
 	display:flex;
+	margin: 10vw;
 	flex-wrap: wrap;
-	justify-content: flex-start;	
+	justify-content: space-between;	
 }
 .item {
-	opacity: 0.5;
-	margin: 2%;
+	margin-block: 30px 0px;
 }
 
 img {
-	height: 250px;
-	width: 250px;
+	height: 35vh;
+	width: 25vw;
+	 border-radius:20px;
 }
 
-h3 {
-	position: relative;
-	top: 150px;
-	left: 50px;
-	font-size: 2em;
+.banner-item {
+	margin-inline: 10vw;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 20px;
+	background-image: url('../images/croissant.jpeg');
 }
 
+.banner-item img {
+	opacity: 0;
+}
 
+.banner-title {
+	background-color: #f2ae72;
+	margin: 15px;
+	padding: 10px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	border-radius: 20px;
+}
+
+.item h3 {
+	text-align: center;
+}
