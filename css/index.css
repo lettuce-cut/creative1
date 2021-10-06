@@ -1,4 +1,12 @@
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #86af49;
+}
+
 body {
+	margin-block: 10vh;
 	background-color: #f2e394;
 }
 img {
@@ -14,7 +22,7 @@ img {
 
 h1 {
 	position: absolute;
-	top: 15vh;
+	top: 20vh;
 	left: 10vw;
 	font-size: 40vh;
 }

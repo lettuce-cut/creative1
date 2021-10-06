@@ -2,17 +2,18 @@
 	position:fixed;
 	top: 0;
 	width: 100%;
-	background-color: #d96459;
+	background-color: #86af49;
 }
 
 body {
+	margin-block: 10vh;
 	background-color: #f2e394;
 }
 
 .list {
 	width: 80vw;
 	display:flex;
-	margin: 10vw;
+	margin-inline: 10vw;
 	flex-wrap: wrap;
 	justify-content: space-between;	
 }
