@@ -53,3 +53,13 @@ img {
 .item h3 {
 	text-align: center;
 }
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color:#86af49;
+	padding-block: 15px;
+}
+footer a{
+	color: black;
+}

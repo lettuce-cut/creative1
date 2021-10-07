@@ -3,7 +3,7 @@
 }
 
  body {
-  background-color: #f2e394;
+       	 background-color: #f2e394;
 }
 
 .title {
@@ -80,4 +80,16 @@ margin: 15px;
 
 .photo {
   padding: 20px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: orange;
+	padding-block: 15px;
+}
+footer a{
+	color: black;
 }

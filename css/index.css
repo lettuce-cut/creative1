@@ -2,7 +2,7 @@
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background-color: #86af49;
+	background-color:orange;
 }
 
 body {
@@ -25,4 +25,14 @@ h1 {
 	top: 20vh;
 	left: 10vw;
 	font-size: 40vh;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: orange;
+	padding-block: 15px;
+}
+footer a{
+	color: black;
 }

@@ -17,3 +17,13 @@ body {
 .card {
 	max-width: 40vw;
 }
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color:#86af49;
+	padding-block: 15px;
+}
+footer a{
+	color: black;
+}
